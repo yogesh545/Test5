@@ -1,0 +1,21 @@
+package Launch_browser;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class open_browser 
+{
+	public static void main(String[] args) 
+	{
+		//Parameter-1 : Name of the browser(small letters)
+		//Parameter-2 : Path of the chromedriver.exe file browser(convert \ to \\)
+		
+		System.setProperty("webdriver.chrome.driver", 			//classname.methodname("para1","para2")
+				"E:\\software java\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		
+		//create object of chromeDriver class
+		ChromeDriver driver=new ChromeDriver();							//classname objectname=new classname();
+		
+		
+	}
+
+}
